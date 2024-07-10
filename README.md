@@ -1,4 +1,4 @@
-# devopsdays-web-20
+# DevOpsDays.org 2.0 (Raging Yak)
 
 Working repository for the 2.0 project of DevOpsDays
 
