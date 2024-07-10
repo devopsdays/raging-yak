@@ -1,7 +1,7 @@
 baseURL: https://example.org/
 languageCode: en-us
 title: DevOpsDays
-theme: devopsdays-web
+theme: devopsdays-theme
 module:
   hugoVersion:
     extended: true
