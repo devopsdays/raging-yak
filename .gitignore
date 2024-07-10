@@ -1,0 +1,82 @@
+/public
+# General CodeKit files to ignore
+config.codekit
+# config.toml # This is a dangerous file, but we need it not in here.
+/min
+dist
+staging
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# local configuration
+.envrc
+.direnv
+shell.nix
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+node_modules
+_mdwriter.cson
+
+# A script to update the ulimt for OS X
+increase_ulimit.sh
+
+#Intellij Idea Project file
+*.iml
+.idea/*
+
+
+#Vim
+*~
+*.swp
+*.swo
+
+# Visual Studio Code
+.vscode/
+.Ulysses-Group.plist
+.vs/*
+
+# test files
+hugo.log
+
+# we don't use yarn 
+## yarn.lock
