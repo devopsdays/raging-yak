@@ -5,11 +5,11 @@
 {
 	"name": "Raging Yak",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image":"ghcr.io/hugomods/hugo:dart-sass-0.128.2",
-//	"build": {
-//		// Path is relative to the devcontainer.json file.
-//		"dockerfile": "Dockerfile"
-//},
+	//"image":"ghcr.io/hugomods/hugo:dart-sass-0.128.2",
+	"build": {
+		// Path is relative to the devcontainer.json file.
+		"dockerfile": "Dockerfile"
+},
 	// "features": {
 	// 	"ghcr.io/devcontainers/features/hugo:1": {}
 	// }
