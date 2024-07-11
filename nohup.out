@@ -1,0 +1,197 @@
+WARN  Module "project" is not compatible with this Hugo version; run "hugo mod graph" for more information.
+Watching for changes in /workspaces/raging-yak/{archetypes,themes}
+Watching for config changes in /workspaces/raging-yak/config/_default
+Start building sites … 
+hugo v0.121.1-00b46fed8e47f7bb0a85d7cfc2d9f1356379b740+extended linux/arm64 BuildDate=2023-12-08T08:47:45Z VendorInfo=gohugoio
+
+
+                   | EN  
+-------------------+-----
+  Pages            | 17  
+  Paginator pages  |  0  
+  Non-page files   |  1  
+  Static files     |  1  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 51 ms
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at https://-1313./ (bind address 0.0.0.0) 
+Press Ctrl+C to stop
+WARN  Module "project" is not compatible with this Hugo version; run "hugo mod graph" for more information.
+Watching for changes in /workspaces/raging-yak/{archetypes,themes}
+Watching for config changes in /workspaces/raging-yak/config/_default
+Start building sites … 
+hugo v0.121.1-00b46fed8e47f7bb0a85d7cfc2d9f1356379b740+extended linux/arm64 BuildDate=2023-12-08T08:47:45Z VendorInfo=gohugoio
+
+
+                   | EN  
+-------------------+-----
+  Pages            | 17  
+  Paginator pages  |  0  
+  Non-page files   |  1  
+  Static files     |  1  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 64 ms
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at https://-1313./ (bind address 0.0.0.0) 
+Press Ctrl+C to stop
+WARN  Module "project" is not compatible with this Hugo version; run "hugo mod graph" for more information.
+Watching for changes in /workspaces/raging-yak/{archetypes,themes}
+Watching for config changes in /workspaces/raging-yak/config/_default
+Start building sites … 
+hugo v0.121.1-00b46fed8e47f7bb0a85d7cfc2d9f1356379b740+extended linux/arm64 BuildDate=2023-12-08T08:47:45Z VendorInfo=gohugoio
+
+
+                   | EN  
+-------------------+-----
+  Pages            | 17  
+  Paginator pages  |  0  
+  Non-page files   |  1  
+  Static files     |  1  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 52 ms
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at https://-1313./ (bind address 0.0.0.0) 
+Press Ctrl+C to stop
+WARN  Module "project" is not compatible with this Hugo version; run "hugo mod graph" for more information.
+Watching for changes in /workspaces/raging-yak/{archetypes,themes}
+Watching for config changes in /workspaces/raging-yak/config/_default
+Start building sites … 
+hugo v0.121.1-00b46fed8e47f7bb0a85d7cfc2d9f1356379b740+extended linux/arm64 BuildDate=2023-12-08T08:47:45Z VendorInfo=gohugoio
+
+
+                   | EN  
+-------------------+-----
+  Pages            | 17  
+  Paginator pages  |  0  
+  Non-page files   |  1  
+  Static files     |  1  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 30 ms
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at https://-1313./ (bind address 0.0.0.0) 
+Press Ctrl+C to stop
+WARN  Module "project" is not compatible with this Hugo version; run "hugo mod graph" for more information.
+Watching for changes in /workspaces/raging-yak/{archetypes,themes}
+Watching for config changes in /workspaces/raging-yak/config/_default
+Start building sites … 
+hugo v0.121.1-00b46fed8e47f7bb0a85d7cfc2d9f1356379b740+extended linux/arm64 BuildDate=2023-12-08T08:47:45Z VendorInfo=gohugoio
+
+
+                   | EN  
+-------------------+-----
+  Pages            | 17  
+  Paginator pages  |  0  
+  Non-page files   |  1  
+  Static files     |  1  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 75 ms
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at https://-1313./ (bind address 0.0.0.0) 
+Press Ctrl+C to stop
+
+Change detected, rebuilding site.
+2024-07-11 13:57:54.326 +0000
+Source changed WRITE         "/workspaces/raging-yak/themes/devopsdays-theme/content/posts/post-2.md"
+Total in 6 ms
+WARN  Module "project" is not compatible with this Hugo version; run "hugo mod graph" for more information.
+Watching for changes in /workspaces/raging-yak/{archetypes,themes}
+Watching for config changes in /workspaces/raging-yak/config/_default
+Start building sites … 
+hugo v0.121.1-00b46fed8e47f7bb0a85d7cfc2d9f1356379b740+extended linux/arm64 BuildDate=2023-12-08T08:47:45Z VendorInfo=gohugoio
+
+
+                   | EN  
+-------------------+-----
+  Pages            | 17  
+  Paginator pages  |  0  
+  Non-page files   |  1  
+  Static files     |  1  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 39 ms
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at https://-1313./ (bind address 0.0.0.0) 
+Press Ctrl+C to stop
+WARN  Module "project" is not compatible with this Hugo version; run "hugo mod graph" for more information.
+Watching for changes in /workspaces/raging-yak/{archetypes,themes}
+Watching for config changes in /workspaces/raging-yak/config/_default
+Start building sites … 
+hugo v0.121.1-00b46fed8e47f7bb0a85d7cfc2d9f1356379b740+extended linux/arm64 BuildDate=2023-12-08T08:47:45Z VendorInfo=gohugoio
+
+
+                   | EN  
+-------------------+-----
+  Pages            | 17  
+  Paginator pages  |  0  
+  Non-page files   |  1  
+  Static files     |  1  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 47 ms
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at https://-1313./ (bind address 0.0.0.0) 
+Press Ctrl+C to stop
+WARN  Module "project" is not compatible with this Hugo version; run "hugo mod graph" for more information.
+Watching for changes in /workspaces/raging-yak/{archetypes,themes}
+Watching for config changes in /workspaces/raging-yak/config/_default
+Start building sites … 
+hugo v0.121.1-00b46fed8e47f7bb0a85d7cfc2d9f1356379b740+extended linux/arm64 BuildDate=2023-12-08T08:47:45Z VendorInfo=gohugoio
+
+
+                   | EN  
+-------------------+-----
+  Pages            | 17  
+  Paginator pages  |  0  
+  Non-page files   |  1  
+  Static files     |  1  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 54 ms
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at https://-1313./ (bind address 0.0.0.0) 
+Press Ctrl+C to stop

@@ -1,0 +1,46 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/alpine
+{
+	"name": "Raging Yak",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"build": {
+		// Path is relative to the devcontainer.json file.
+		"dockerfile": "Dockerfile"
+},
+	// "features": {
+	// 	"ghcr.io/devcontainers/features/hugo:1": {}
+	// }
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	 "forwardPorts": [113],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "hugo server -D -F --baseURL \"https://$CODESPACE_NAME-1313.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN/\" -liveReloadPort=443 --appendPort=false --bind=0.0.0.0",
+	"postStartCommand": "nohup bash -c 'hugo server -D -F --baseURL \"https://$CODESPACE_NAME-1313.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN/\" --port=113 -liveReloadPort=443 --appendPort=false --bind=0.0.0.0 &'",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"DavidAnson.vscode-markdownlint",
+				"esbenp.prettier-vscode",
+				"syler.sass-indented",
+				"budparr.language-hugo-vscode",
+				"oderwat.indent-rainbow",
+				"aaron-bond.better-comments",
+				"thekalinga.bootstrap4-vscode",
+				"mrmlnc.vscode-duplicate",
+				"kisstkondoros.vscode-gutter-preview"
+			]
+		}
+	}
+
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
