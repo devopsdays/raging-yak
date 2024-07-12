@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+<br>
+<h2>pages</h2>
+{{ with .Resources.ByType "page" }}
+<div>
+  {{ range . }}
+    {{/*  <a href ="{{ .Permalink }}">{{ .Title }}</a><br>  */}}
+    <a href = "{{- with .GetPage .Path -}}{{- .RelPermalink -}}{{- end -}}">{{ .Title }}</a> <br>
+  {{ end }}
+</div>
+{{ end }}
+this is a SINGLE city page
+<br>
+put the logo image here:
+
+{{ with .Resources.GetMatch "logo.jpg" }}
+  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+{{ end }}
+
+
+  {{ .Content }}
+ {{ end }}

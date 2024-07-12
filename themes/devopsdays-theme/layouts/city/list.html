@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+<br>
+<h2>events</h2>
+<div>
+{{- range where .Site.RegularPages "Type" "event" -}}
+
+    {{/*  <a href ="{{ .Permalink }}">{{ .Title }}</a><br>  */}}
+    <a href = "{{ .RelPermalink }}">{{ .Title }}</a> <br>
+  {{ end }}
+this is a LIST city page
+<br>
+put the logo image here:
+
+{{ with .Resources.GetMatch "logo.jpg" }}
+  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+{{ end }}
+
+
+  {{ .Content }}
+ {{ end }}
