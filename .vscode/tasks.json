@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "Run Hugo Server",
+          "type": "shell",
+          "command": "hugo server --watch --baseURL \"https://$CODESPACE_NAME-1313.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN/\" --port=113 --liveReloadPort=443 --appendPort=false --bind=0.0.0.0",
+          "group": {
+              "kind": "test",
+              "isDefault": true
+          },
+          "isBackground": true,
+      }
+  ]
+}

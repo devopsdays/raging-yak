@@ -22,7 +22,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "hugo server -D -F --baseURL \"https://$CODESPACE_NAME-1313.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN/\" -liveReloadPort=443 --appendPort=false --bind=0.0.0.0",
-	"postStartCommand": "nohup bash -c 'hugo server -D -F --baseURL \"https://$CODESPACE_NAME-1313.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN/\" --port=113 -liveReloadPort=443 --appendPort=false --bind=0.0.0.0 &'",
+	// "postStartCommand": "nohup bash -c 'hugo server -D -F --baseURL \"https://$CODESPACE_NAME-1313.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN/\" --port=113 -liveReloadPort=443 --appendPort=false --bind=0.0.0.0 &'",
 	"customizations": {
 		"vscode": {
 			"extensions": [

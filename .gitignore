@@ -70,10 +70,9 @@ increase_ulimit.sh
 *.swp
 *.swo
 
-# Visual Studio Code
-.vscode/
-.Ulysses-Group.plist
-.vs/*
+### VisualStudioCode ###
+.vscode/**/*
+!.vscode/tasks.json
 
 # test files
 hugo.log
