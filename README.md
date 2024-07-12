@@ -1,4 +1,6 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1c175a82-26a8-418c-a250-a9a014c2ee34/deploy-status)](https://app.netlify.com/sites/raging-yak/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1c175a82-26a8-418c-a250-a9a014c2ee34/deploy-status)](https://app.netlify.com/sites/raging-yak/deploys)<br>
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](URL)
+
 # DevOpsDays.org 2.0 (Raging Yak)
 
 Working repository for the 2.0 project of DevOpsDays

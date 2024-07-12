@@ -78,5 +78,9 @@ increase_ulimit.sh
 # test files
 hugo.log
 
+# devcontainer temp
+nohup.out
+
 # we don't use yarn 
 ## yarn.lock
+nohup.out
