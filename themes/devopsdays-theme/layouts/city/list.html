@@ -1,21 +1,28 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
-<br>
-<h2>events</h2>
-<div>
-{{- range where .Site.RegularPages "Type" "event" -}}
+  <br>
+  <h2>events</h2>
+  <div>
+    {{- range where .Site.RegularPages "Type" "event" -}}
+      <a href = "{{ .RelPermalink }}">{{ .Title }}</a> <br>
+    {{ end }}
+  </div>
+  <div>
+    Let's find descendents
+    {{ range .Sections }}
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ end }}
+  </div>
+  this is a LIST city page
+  <br>
+  put the logo image here:
 
-    {{/*  <a href ="{{ .Permalink }}">{{ .Title }}</a><br>  */}}
-    <a href = "{{ .RelPermalink }}">{{ .Title }}</a> <br>
+  {{ with .Resources.GetMatch "logo.jpg" }}
+    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
   {{ end }}
-this is a LIST city page
-<br>
-put the logo image here:
-
-{{ with .Resources.GetMatch "logo.jpg" }}
-  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+{{ with .Resources }}
+  {{ . }}
 {{ end }}
 
-
   {{ .Content }}
- {{ end }}
+{{ end }}

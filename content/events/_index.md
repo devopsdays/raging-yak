@@ -1,4 +1,4 @@
 +++
 Title = "Events"
 +++
-hi events
+All devopsdays events

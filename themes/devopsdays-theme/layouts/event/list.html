@@ -1,7 +1,28 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
-this is a list of events page
+this is a LIST event page
+<p>permalink{{ .Permalink }}</p>
+<p></p>
+Parent city: 
+{{ with .Parent }}
+  <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+{{ end }}
+<br>
+put the logo here:
+
+{{ with .Resources.GetMatch "logo.jpg" }}
+  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+{{ else }}
+  {{ with .Parent.Resources.GetMatch "logo.jpg" }}
+    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+  {{ end }}
+{{ end }}
 
   {{ .Content }}
-  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+ put the speaker image here:
+<br>
+ {{/*  {{ $image := .Resources.Get "program/images/rainbow-dash.jpg" }}  */}}
+ {{ with .Resources.GetMatch "program/images/rainbow-dash.jpg" }}
+  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+{{ end }}
 {{ end }}
