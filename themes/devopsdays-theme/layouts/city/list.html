@@ -1,28 +1,25 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   <br>
-  <h2>events</h2>
+  <h2>Years of {{ .Title }}</h2>
   <div>
     {{- range where .Site.RegularPages "Type" "event" -}}
       <a href = "{{ .RelPermalink }}">{{ .Title }}</a> <br>
     {{ end }}
   </div>
   <div>
-    Let's find descendents
+    Here's all the years of events and stuff
     {{ range .Sections }}
       <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ end }}
   </div>
-  this is a LIST city page
   <br>
-  put the logo image here:
+  Here's the logo for {{ .Title }}<br><br>
 
   {{ with .Resources.GetMatch "logo.jpg" }}
     <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
   {{ end }}
-{{ with .Resources }}
-  {{ . }}
-{{ end }}
 
   {{ .Content }}
+  <div><hr><small>this is a LIST event page</small></div> 
 {{ end }}

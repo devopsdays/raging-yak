@@ -1,8 +1,6 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
-this is a LIST event page
-<p>permalink{{ .Permalink }}</p>
-<p></p>
+
 Parent city: 
 {{ with .Parent }}
   <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
@@ -25,4 +23,11 @@ put the logo here:
  {{ with .Resources.GetMatch "program/images/rainbow-dash.jpg" }}
   <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
 {{ end }}
+
+PAGE RANGE <Br>
+  {{ range .Pages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ .Summary }}
+  {{ end }}
+<div><hr><small>this is a LIST event page</small></div> 
 {{ end }}

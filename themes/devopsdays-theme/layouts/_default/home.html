@@ -1,7 +1,9 @@
 {{ define "main" }}
   {{ .Content }}
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
+  <h2>Cities</h2>
+  {{ range .Sections.ByWeight }}
+    {{ range .Sections.ByWeight }}
+      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+    {{ end }}
+  {{ end }} 
 {{ end }}

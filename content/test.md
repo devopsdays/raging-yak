@@ -1,5 +1,4 @@
-hi this is a test
-
-[ponyville](/events/ponyville)
-
-[hoofington](/events/hoofington)
++++
+Title = "DevOpsDays Yak Test"
+Type = "home"
++++
